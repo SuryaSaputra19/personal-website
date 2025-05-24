@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak Saya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="contact-section">
+    <div class="contact-container">
+      <!-- Kolom Kiri: Info Kontak -->
+      <div class="contact-info">
+        <h2>Hubungi Saya</h2>
+        <p>Ingin bekerja sama atau punya pertanyaan? Kirim pesan langsung lewat form ini:</p>
+        <ul>
+          <li><strong>Email:</strong> uyeeeee19@gmail.com</li>
+          <li><strong>WhatsApp:</strong> +62 87737424629</li>
+          <li><strong>Lokasi:</strong> Bekasi, Indonesia</li>
+        </ul>
+      </div>
+
+      <!-- Kolom Kanan: Formulir Kontak (Formspree) -->
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xwpozggp" method="POST">
+          <input type="text" name="name" placeholder="Nama Anda" required />
+          <input type="email" name="email" placeholder="Email Anda" required />
+          <textarea name="message" rows="6" placeholder="Pesan Anda..." required></textarea>
+
+          <!-- Hidden: Subjek dan Redirect -->
+          <input type="hidden" name="_subject" value="Pesan Baru dari Website Portofolio">
+          <input type="hidden" name="_redirect" value="thankyou.html">
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+    <a href="portuya.html" class="btn back-btn">← Kembali</a>
+  </section>
+</body>
+</html>
