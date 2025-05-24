@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefdf9;
+  color: #3c2e21;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header {
+  background-color: #f2e8d9;
+  padding: 2rem;
+  border-bottom: 2px solid #cebfa3;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #4a381f;
+}
+
+header p {
+  margin-top: 0.5rem;
+  color: #6a5943;
+  font-style: italic;
+}
+
+.content-bab h2, h3 {
+  color: #5b3e2c;
+  margin-top: 2rem;
+}
+
+.teks-arab {
+  font-family: 'Scheherazade New', serif;
+  font-size: 1.7rem;
+  direction: rtl;
+  text-align: right;
+  background: #fbf7f2;
+  padding: 1rem;
+  border-right: 4px solid #d4b08c;
+  border-radius: 8px;
+}
+
+.terjemahan, .penjelasan {
+  margin-top: 1.5rem;
+}
+
+.audio {
+  margin-top: 2rem;
+}
+
+audio {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.navigasi-bab {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+}
+
+.navigasi-bab a {
+  color: #7a5b3e;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigasi-bab a:hover {
+  color: #a97d52;
+}
