@@ -384,4 +384,64 @@
       text-align: center;
     }
   }
+ /* Judul */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #3498db;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Daftar kitab */
+.daftar-kitab {
+    list-style: none;
+    padding: 0;
+}
+
+.daftar-kitab li {
+    background: #7193ba;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-left: 6px solid #3498db;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.daftar-kitab li:hover {
+    background: #11000e;
+    transform: scale(1.02);
+}
+
+/* Tombol keren */
+.btnkembali {
+    display: block;
+    margin: 40px auto 0;
+    background: linear-gradient(to right, #3498db, #5dade2);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.4s, transform 0.2s;
+    box-shadow: 0 5px 12px rgba(52, 152, 219, 0.4);
+}
+
+.tombol-keren:hover {
+    background: linear-gradient(to right, #2980b9, #3498db);
+    transform: translateY(-2px);
+}
   
