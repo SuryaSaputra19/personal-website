@@ -424,21 +424,6 @@ h1::after {
     transform: scale(1.02);
 }
 
-/* Tombol keren */
-.btnkembali {
-    display: block;
-    margin: 40px auto 0;
-    background: linear-gradient(to right, #3498db, #5dade2);
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background 0.4s, transform 0.2s;
-    box-shadow: 0 5px 12px rgba(52, 152, 219, 0.4);
-}
 
 .tombol-keren:hover {
     background: linear-gradient(to right, #2980b9, #3498db);
